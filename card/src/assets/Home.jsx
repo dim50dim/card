@@ -2,8 +2,16 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-         <h2>Home</h2>
+    <div className='min-h-screen '>
+        {/* Theme Toggle */}
+
+        {/* Background Effect  */}
+
+         {/* Navbar */}
+
+         {/* Main Content  */}
+
+          {/* Footer  */}
     </div>
   )
 }
