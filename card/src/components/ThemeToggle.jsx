@@ -6,10 +6,11 @@ const ThemeToggle = () => {
     const [isDarkMode,setIsDarkMode] = useState(false)
     const toggleTheme =() => {
         if(isDarkMode) {
+          document.documentElement.classList.add("dark")
             setIsDarkMode(false)
 
         }else{
-          document.documentElement.classList.add("dark")
+          document.documentElement.classList.remove("dark")
             setIsDarkMode(true)
         }
     }
